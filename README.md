@@ -14,14 +14,10 @@
 - 모듈을 호출할 때엔 require 메서드로 호출, 모듈로서 호출되기 위해선  exports 전역 객체를 이용
 - 내부모듈 - 노드에서 기본적으로 제공하는 모듈들
 
-> 내부모듈 중 os(현재 내가 사용하고 있는 OS에 대한 정보를 나타내는 모듈)를 이용해 콘솔을 찍어봄 - internalModule.js 
-
 - 외부모듈 
   - node.js에서 제공하지 않는 모듈로 개인이나 단체 등에서 배포 https://npmjs.org
   - 외부모듈설치 -> npm install 외부모듈명
 
-> 외부모듈 중 request(http 웹서비스를 이용할 때 클라이언트가 요청할 때 사용되는 모듈)을 불러와 콘솔을 찍어봄 - externalModule.js
->
 > 근데 npm을 사용해서 request 모듈을 불러오려고 했더니 package-lock.json이라는 파일이 같이 생기고 뭔가 많은 warn들이 찍혔다
 >
 > ***알고보니 npm을 사용하려면 우선 해당 프로젝트 내에서 npm init을 해준 다음 모듈을 불러와야 했다 (iOS 의 pod과 비슷해보여서 신기했다***
