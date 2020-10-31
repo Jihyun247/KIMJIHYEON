@@ -7,6 +7,7 @@
   
   <br>
   <br>
+  
   ## 모듈(Module) (internalModule.js, externalModule.js)
 
 - 하나의 공간 밖에 기능을 만들어 놓고 필요할 때마다 호출해서 기능을 쓸 수 있음, 여기서의 기능들을 모두 모듈이라고 부른다
